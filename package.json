@@ -1,0 +1,13 @@
+{
+  "name": "mc-bedrock-bot-1-26",
+  "version": "1.0.0",
+  "description": "Bot Anti-AFK para Minecraft Bedrock 1.26",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "latest"
+  }
+}
+
