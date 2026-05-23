@@ -2,7 +2,7 @@ const bedrock = require('bedrock-protocol');
 
 const config = {
     host: 'BLAZE_CRAFT-xf0c.aternos.me',     // Substitua pelo IP ou domínio do seu servidor
-    port: '39054,                    // Porta padrão da Bedrock
+    port: 39054,                    // Porta padrão da Bedrock
     username: 'Bot_AntiAFK',        // Nome que o bot vai ter dentro do jogo
     offline: true,                  // 'true' para servidores piratas ou 'false' para usar conta Microsoft original
     version: '1.26.10'              // Configurado para a versão 1.26 do Bedrock
