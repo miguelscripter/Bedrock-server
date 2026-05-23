@@ -1,0 +1,22 @@
+name: Rodar Bot Minecraft Bedrock
+
+on:
+  workflow_dispatch: # Adiciona o botão para iniciar manualmente no GitHub
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Instalar Dependencias
+      run: npm install
+      
+    - name: Iniciar o Bot 1.26
+      run: npm start
+
