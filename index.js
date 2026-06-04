@@ -11,8 +11,8 @@ console.log("[Web Server] Servidor HTTP criado na porta 8080 para o UptimeRobot.
 
 // Configuração camuflada para o servidor da Aternos
 const config = {
-    host: 'BLAZE_CRAFT-xf0c.aternos.me', 
-    port: 39054,                    
+    host: 'mc2069687.fmcs.cloud', 
+    port: 25755,                    
     username: 'Bot_AntiAFK',        
     
     // --- SE SEU SERVIDOR FOR PIRATA ---
